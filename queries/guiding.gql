@@ -1,0 +1,51 @@
+#query guidingOne {
+#    guidingPrinciple1S {
+#        id
+#        createdAt
+#        curriculumAndNational
+#        supplementaryContentEvidence {
+#            id
+#        }
+#        supplementaryContent
+#        knowsContent
+#        masterySubject
+#        philosophicalConcepts
+#        philosophicalConceptsEvidence {
+#            id
+#            fileName
+#            url
+#        }
+#    }
+#}
+query guidingOne {
+    guidingPrinciple2(where: {id: "cl5hmm2q1gokp0bmxqf5dolci"}) {
+        createdAt
+        createdDate
+        gp2One
+        gp2OneEvidence {
+            fileName
+            url
+        }
+        gp2Two
+        gp2TwoEvidence {
+            fileName
+            url
+        }
+        gp2Three
+        gp2ThreeEvidence {
+            fileName
+            url
+        }
+        gp2Four
+        gp2FourEvidence {
+            fileName
+            url
+        }
+        gp2Five
+        gp2FiveEvidence {
+            fileName
+            url
+        }
+        gp2Six
+    }
+}
